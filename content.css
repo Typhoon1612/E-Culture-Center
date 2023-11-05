@@ -1,0 +1,138 @@
+/***Slogan & Banner***/
+#slogan{
+    display:flex;
+    background-image: url(./images/banner_example.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    margin-top: 139px;
+    height: 62vh;
+}
+
+#slogan h2{
+    padding-left: 150px;
+    padding-top: 150px;
+    font-size: 40px;
+    text-shadow: 2px 2px 0px #ff6976;
+}
+
+/***Calligraphy Intro***/
+.calligraphy-intro{
+    margin: 100px
+}
+
+.calligraphy-intro h1{
+    font-size: 60px;
+    text-align:center;
+    letter-spacing: 30px;
+    padding-bottom: 25px
+}
+
+.calligraphy-intro p{
+    font-size: 30px;
+}
+/***About Us***/
+.about-us-title h1{
+    letter-spacing: 30px;
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+}
+/***E Culture Center Location Introduce***/
+.ecc-location-intro{
+    display: flex;
+    gap: 30px;
+    margin: 100px;
+    align-items: center;
+    background-color: #9C1D27;
+    border-radius: 50px;
+}
+
+.ecc-location-image img{
+    width:300px;
+    border-radius: 50px 0 0 50px;
+}
+
+.ecc-location-text{
+    margin: 0px 50px;
+    color: white;
+}
+/***Founder-Intro***/
+.founder-intro{
+    display: flex;
+    gap: 30px;
+    margin: 100px;
+    align-items: center;
+    background-color: #9C1D27;
+    border-radius: 50px;
+}
+
+.founder-intro-image img{
+    width:300px;
+    height:200px;
+    border-radius: 0 50px 50px 0;
+}
+
+.founder-intro-text{
+    margin-right: 20px;
+    margin-left: 70px;
+    color: white;
+}
+@media (max-width:700px){
+    #slogan{
+        margin-top: 100px;
+        height: 30vh;
+    }
+    #slogan h2{
+        padding-top: 85px;
+        padding-left: 50px;
+        font-size: 25px;
+    }
+}
+@media(max-width:1000px){
+    .calligraphy-intro{
+        margin-top: 0px
+    }
+    .ecc-location-intro{
+        flex-direction: column;
+    }
+    .ecc-location-image img{
+        width: 100%;
+        text-align: center;
+        border-radius: 50px 50px 0 0;
+    }
+    .ecc-location-text{
+        margin-bottom: 40px;
+    }
+    .founder-intro{
+        flex-direction: column;
+    }
+
+    .founder-intro-image img{
+        width:100%;
+        height: 300px;
+        text-align: center;
+        border-radius: 50px 50px 0 0;
+    }
+
+    .founder-intro-text{
+        margin: 0 50px 40px 50px;
+        order: 1;
+    }
+    .ecc-location-text h2, .founder-intro-text h2{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:1300px){
+    /***Slogan & Banner***/
+    #slogan{
+        margin-top: 100px;
+        height: 40vh;
+    }
+    #slogan h2{
+        padding-top: 85px;
+        padding-left: 90px;
+        font-size: 30px;
+    }
+}

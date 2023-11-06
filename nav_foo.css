@@ -278,9 +278,6 @@
 }
 
 @media(max-width:500px){
-    .navbar{
-        width: 95vh;
-    }
     body{
         width: 95vh;
     }

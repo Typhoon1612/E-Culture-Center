@@ -1,6 +1,4 @@
-body{
-    width: 100%;
-}
+
 /***Nav-Bar***/
 .navbar{
     width:100%;
@@ -280,10 +278,21 @@ body{
 }
 
 @media(max-width:500px){
+    .navbar{
+        width: 80vh;
+    }
     body{
         width: 80vh;
     }
-    h2{
+    #footer-column-3-icons{
+        margin-left: 0px;
         font-size: small;
+        gap:10px
+    }
+    #footer-email{
+        margin-bottom:40px;
+        margin-left: 10px;
+        left: 0px;
+        padding-right: auto;
     }
 }

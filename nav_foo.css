@@ -279,15 +279,15 @@
 
 @media(max-width:500px){
     .navbar{
-        width: 80vh;
+        width: 95vh;
     }
     body{
-        width: 80vh;
+        width: 95vh;
     }
     #footer-column-3-icons{
         margin-left: 0px;
         font-size: small;
-        gap:10px
+        gap:10px;
     }
     #footer-email{
         margin-bottom:40px;

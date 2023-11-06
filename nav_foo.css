@@ -1,5 +1,5 @@
-*{
-    box-sizing: border-box;
+body{
+    width: 100%;
 }
 /***Nav-Bar***/
 .navbar{
@@ -147,6 +147,7 @@
 }
 
 @media (max-width: 1300px){
+
     /***Navbar***/
     .navbar {
         display: flex;
@@ -208,6 +209,7 @@
     .footer{
         display: flex;
         flex-direction: column;
+        
     }
     .footer-column-1{
         margin-left: 70px;
@@ -274,5 +276,14 @@
     .footer-column-3-btn{
         padding: 20px 30px;
         font-size: 40px;
+    }
+}
+
+@media(max-width:500px){
+    body{
+        width: 80vh;
+    }
+    h2{
+        font-size: small;
     }
 }

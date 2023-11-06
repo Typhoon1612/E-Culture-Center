@@ -277,9 +277,9 @@
     }
 }
 
-@media(max-width:500px){
+@media(max-width:600px){
     .footer-column-1{
-        margin-left: 10px;
+        margin-left: 40px;
     }
     .footer-navbar{
         gap:10px
@@ -293,7 +293,7 @@
         text-align: center;
     }
     #footer-location{
-        margin-left: 10px;
+        margin-left: 40px;
         left: 0px;
     }
     #footer-location a {
@@ -304,14 +304,14 @@
         font-size: 15px;
     }
     #footer-phone{
-        margin-left: 10px;
+        margin-left: 40px;
     }
     #footer-phone p{
         font-size: 18px;
     }
     #footer-email{
         margin-bottom:40px;
-        margin-left: 10px;
+        margin-left: 40px;
         left: 0px;
         padding-right: auto;
     }
@@ -319,12 +319,13 @@
         font-size: 15px;
     }
     .footer-column-3{
-        margin-left: 10px;
+        margin-left: 40px;
     }
     #footer-column-3-icons{
         gap: 10px
     }
     .footer-column-3-btn{
+        padding: 20px;
         font-size: 30px;
     }
 }

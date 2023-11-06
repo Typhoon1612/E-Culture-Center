@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     background-attachment: initial;
     margin-top: 139px;
-    height: 62vh;
 }
 
 #slogan h2{
@@ -14,11 +13,13 @@
     padding-top: 150px;
     font-size: 40px;
     text-shadow: 2px 2px 0px #ff6976;
+    height: 650px;
 }
 
 /***Calligraphy Intro***/
 .calligraphy-intro{
-    margin: 100px
+    margin: 100px;
+    margin-top: 30px;
 }
 
 .calligraphy-intro h1{
@@ -32,11 +33,14 @@
     font-size: 30px;
 }
 /***About Us***/
+.about-us-section{
+    padding: 80px 0px 20px;
+    box-shadow: 0 -5px 10px rgb(170, 170, 170), 0 5px 10px rgb(170, 170, 170);
+}
 .about-us-title h1{
     letter-spacing: 30px;
-    display: flex;
+    text-align: center;
     font-size: 60px;
-    justify-content: center;
 }
 /***E Culture Center Location Introduce***/
 .ecc-location-intro{
@@ -66,10 +70,12 @@
     background-color: #9C1D27;
     border-radius: 50px;
 }
-
+.founder-intro-image{
+    height: 100%;
+}
 .founder-intro-image img{
     width:300px;
-    height: 100%;
+    height: 200px;
     border-radius: 50px 0 0 50px;
 }
 
@@ -79,8 +85,7 @@
 }
 @media (max-width:700px){
     #slogan{
-        margin-top: 100px;
-        height: 30vh;
+        margin-bottom: -200px;
     }
     #slogan h2{
         padding-top: 85px;
@@ -89,6 +94,9 @@
     }
 }
 @media(max-width:1000px){
+    #slogan{
+        margin-bottom: -40px;
+    }
     .calligraphy-intro{
         margin-top: 0px
     }
@@ -109,7 +117,7 @@
 
     .founder-intro-image img{
         width: 100%;
-        height: 200px;
+        height: 471px;
         text-align: center;
         border-radius: 50px 50px 0 0;
     }
@@ -136,18 +144,46 @@
     }
 }
 
-@media(max-width:500px){
+@media(max-width:600px){
+    #slogan{
+        margin-bottom: -250px;
+    }
     #slogan h2{
-        font-size: 10px;
+        font-size: 20px;
         padding-left: 10px;
         padding-top: 60px;
+        height:40px;
+    }
+    .calligraphy-intro{
+        margin-top: -120px !important;
+        margin: -120px 90px 60px 90px;
     }
     .calligraphy-intro h1{
         font-size: 40px;
+        letter-spacing: 10px;
     }
     .calligraphy-intro p{
         margin-left: -50px;
         margin-right: -50px;
         font-size: 20px;
+    }
+    .about-us-title h1{
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+    .ecc-location-intro{
+        margin: 40px;
+    }
+    .ecc-location-text h2{
+        font-size: 30px;
+    }
+    .founder-intro{
+        margin: 40px;
+    }
+    .founder-intro-text h2{
+        font-size: 30px;
+    }
+    .founder-intro-image img{
+        height: 280px;
     }
 }

@@ -1,0 +1,25 @@
+.shbody{
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+}
+
+.shimage_container{
+    height:400px;
+    width:750px;
+    overflow:hidden
+
+}
+
+.shimage_container .shimages{
+    height: 100%;
+    width: 100%;
+}
+
+.shimages .shimages_content {
+    height:100%;
+    width:100%;
+}
